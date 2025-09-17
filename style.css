@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caprasimo&family=Rubik+Glitch&display=swap');
 
 body {
     margin: 0;
@@ -116,7 +116,9 @@ canvas#matrix {
 }
 
 .sidebar li a {
-    font-family: "Rubik Glitch", system-ui;
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20px;
     background-color: rgba(56, 59, 59, 0.7);
     border-radius: 8px;
@@ -165,6 +167,9 @@ canvas#matrix {
 }
 
 .sidebar li a:hover {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
     color: #90e6e6;
     text-shadow: 0 0 10px #ffffff;
     transform: translateY(-3px);
