@@ -19,6 +19,33 @@ canvas#matrix {
     z-index: -1;
 }
 
+.containers {
+    display: grid;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#search-input {
+    width: 400px;
+    padding: 12px 18px;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    color: white;
+}
+
+#search-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .clock-container {
     display: flex;
     flex-direction: column;

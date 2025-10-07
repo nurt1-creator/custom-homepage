@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <div class="clock-container">
-        <div id="clock"></div>
-        <div id="greeting"></div>
+<body>
+    <div class="containers">
+        <div class="clock-container">
+            <div id="clock"></div>
+            <div id="greeting"></div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search..." autocomplete="off"/>
+        </div>
     </div>
 
     <div class="sidebar left">
@@ -30,7 +37,8 @@
     <div class="sidebar right">
         <ul type="none">
             <li><a href="https://github.com/nurt1-creator" target="_blank" rel="noopener noreferrer">My GitHub</a></li>
-            <li><a href="https://www.reddit.com/r/unixporn/" target="_blank" rel="noopener noreferrer">r/unixporn</a></li>
+            <li><a href="https://www.reddit.com/r/unixporn/" target="_blank" rel="noopener noreferrer">r/unixporn</a>
+            </li>
             <li><a href="https://archlinux.org/" target="_blank" rel="noopener noreferrer">Arch</a></li>
         </ul>
 
@@ -44,6 +52,7 @@
     <canvas id="matrix"></canvas>
     <script src="matrix.js"></script>
     <script src="greet.js"></script>
-
+    <script src="search.js"></script>
 </body>
+
 </html>
